@@ -1,10 +1,10 @@
 import Principal from './Principal';
-import Description from './Decsription';
-
+//import Description from './Decsription';
+import ShoppingList from './ShoppingList';
 import '../App.css';
 
 function App() {
-  return ( <div><Principal /><Description /></div>
+  return ( <div><Principal /> <ShoppingList/></div>
   );
 }
 
